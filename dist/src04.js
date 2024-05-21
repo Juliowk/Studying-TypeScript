@@ -1,0 +1,13 @@
+"use strict";
+let cursos = ["TypeScript", "JavaScript", "Java"];
+cursos.push("C++");
+console.log(cursos);
+let valores = [];
+valores.push(100);
+console.log(valores);
+let teste;
+teste = 100;
+teste = "Progrmação Orientada a Objetos";
+console.log(typeof teste + " - " + teste);
+let cursosENotas = ["HTML", 10, "CSS", 6.0];
+console.log(cursosENotas);
