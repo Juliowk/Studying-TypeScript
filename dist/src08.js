@@ -10,4 +10,19 @@ var dias;
     dias[dias["sabado"] = 6] = "sabado";
 })(dias || (dias = {}));
 const d = new Date();
-console.log(dias[d.getDay()]);
+var cores;
+(function (cores) {
+    cores["branco"] = "#fff";
+    cores["preto"] = "#000";
+    cores["vermelho"] = "#f00";
+    cores["verde"] = "#0f0";
+    cores["azul"] = "#00f";
+})(cores || (cores = {}));
+var tipousuario;
+(function (tipousuario) {
+    tipousuario[tipousuario["User"] = 10] = "User";
+    tipousuario[tipousuario["Admin"] = 100] = "Admin";
+    tipousuario[tipousuario["Super"] = 1000] = "Super";
+})(tipousuario || (tipousuario = {}));
+let tp = tipousuario.Super;
+console.log(tp);
